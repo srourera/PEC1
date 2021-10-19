@@ -2,10 +2,10 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-
-  "editor.formatOnSave": false,
+  
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
-	"files.autoSaveDelay": 500,
+  "files.autoSaveDelay": 500,
 }
