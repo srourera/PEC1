@@ -1,0 +1,56 @@
+/*------------------------------------*\
+  # COMPONENTS - Education
+\*------------------------------------*/
+
+.education {
+  margin: spacing(2) 0 spacing(5);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__icon {
+    float: left;
+    margin-right: spacing(2);
+    font-size: fontSize(5);
+    color: $color-highlight;
+  }
+
+  &__title,
+  &__university,
+  &__faculty,
+  &__list > li {
+    margin-bottom: spacing(2);
+  }
+
+  &__title,
+  &__university {
+    text-transform: uppercase;
+  }
+
+  &__faculty,
+  &__date {
+    color: $color-secondary;
+  }
+
+  &__date {
+    font-weight: bold;
+  }
+
+  &__list {
+    padding-left: spacing(4);
+    text-transform: uppercase;
+    list-style: none;
+  }
+
+  &--group {
+    &__title {
+      font-weight: normal;
+    }
+
+    &__date {
+      float: right;
+      font-size: fontSize(2);
+    }
+  }
+}

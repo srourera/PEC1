@@ -1,0 +1,67 @@
+/*------------------------------------*\
+  # COMPONENTS - Personal
+\*------------------------------------*/
+
+.personal-presentation {
+  text-align: center;
+
+  &__photo {
+    height: 200px;
+    padding-top: spacing(4);
+  }
+
+  &__me {
+    padding: spacing(4);
+    text-transform: uppercase;
+
+    > h2 {
+      font-weight: normal;
+      color: white;
+
+      @include lg {
+        width: min-content;
+      }
+    }
+  }
+
+  @include lg {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+  }
+}
+
+/*ul*/
+.personal-info {
+  padding: spacing(4);
+  margin: 0;
+  color: white;
+  list-style: none;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: spacing(2) 0;
+
+    > i {
+      padding: spacing(2);
+      margin-right: spacing(2);
+      background-color: black;
+      border-radius: 50%;
+
+      @include lg {
+        margin-right: 0;
+        margin-left: spacing(2);
+      }
+    }
+
+    > span {
+      font-size: fontSize(5);
+    }
+
+    @include lg {
+      flex-direction: row-reverse;
+      text-align: right;
+    }
+  }
+}

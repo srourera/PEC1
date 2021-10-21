@@ -1,5 +1,5 @@
 /*------------------------------------*\
-  # BASE CHANGES TO NATIVE TAGS
+  # GENERIC
 \*------------------------------------*/
 
 * {
@@ -22,15 +22,4 @@ h6,
 p {
   padding: 0;
   margin: 0;
-  font-size: fontSize(1);
-}
-
-header {
-  background-color: $color-primary;
-}
-footer {
-  background-color: $color-dark;
-}
-main {
-  background-color: $color-background;
 }

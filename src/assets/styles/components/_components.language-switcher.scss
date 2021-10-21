@@ -1,0 +1,41 @@
+/*------------------------------------*\
+  # COMPONENT - Language Switcher
+\*------------------------------------*/
+
+/*ul*/
+.language-switcher {
+  padding-top: spacing(4);
+  padding-bottom: spacing(4);
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  list-style: none;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 spacing(4);
+    margin: spacing(2) 0;
+    cursor: pointer;
+
+    > svg,
+    > span {
+      height: fontSize(5);
+    }
+
+    > svg {
+      margin-right: spacing(2);
+    }
+
+    @include lg {
+      margin: 0;
+    }
+  }
+
+  &__info {
+    padding-bottom: spacing(2);
+    color: white;
+    text-align: center;
+  }
+}

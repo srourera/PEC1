@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  # OBJECTS - Layout
+\*------------------------------------*/
+
+.layout {
+  max-width: $max-width;
+  padding: spacing(2);
+  margin: 0 auto;
+}
+
+.two-columns-layout,
+.three-columns-layout {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__column {
+    flex: 0 0 100%;
+
+    @include lg {
+      flex: 0 0 50%;
+    }
+  }
+}
+
+.three-columns-layout {
+  &__column {
+    @include lg {
+      flex: 0 0 33.33%;
+    }
+  }
+}

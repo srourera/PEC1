@@ -1,0 +1,38 @@
+@use 'sass:color';
+
+/*------------------------------------*\
+  # COMPONENTS - Experience
+\*------------------------------------*/
+
+.experience {
+  margin: spacing(2) 0 spacing(4);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__title,
+  &__company,
+  &__tasks > p:not(:last-child) {
+    margin-bottom: spacing(2);
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__company {
+    font-style: italic;
+  }
+
+  &__date {
+    float: right;
+    color: $color-secondary;
+  }
+
+  &__tasks {
+    padding: spacing(2);
+    background-color: color.scale($color-secondary, $lightness: 80%);
+    border: 1px solid color.scale($color-secondary, $lightness: 20%);
+  }
+}

@@ -1,0 +1,46 @@
+/*------------------------------------*\
+  # COMPONENTS - Section
+\*------------------------------------*/
+
+.cv-section {
+  padding: spacing(4) spacing(2);
+
+  &__title {
+    display: flex;
+
+    > i {
+      padding: spacing(4);
+      margin-right: spacing(4);
+      color: white;
+      background-color: $color-highlight;
+      border-radius: spacing(2);
+    }
+
+    h3 {
+      flex: 1;
+      line-height: spacing(6);
+      text-transform: uppercase;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  &__content {
+    text-align: justify;
+
+    &--text {
+      padding: spacing(2) 0;
+
+      > p {
+        padding: spacing(2);
+      }
+    }
+
+    &--with-padding {
+      padding: spacing(4) spacing(2);
+    }
+  }
+
+  @include md {
+    padding: spacing(4);
+  }
+}

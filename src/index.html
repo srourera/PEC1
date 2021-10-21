@@ -8,21 +8,317 @@
         <title>CV Sergi Rourera</title>
     </head>
     <body>
-        <div class="uoc-container">
-            <p data-i18n="common.now">Actualitat</p>
-            <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-            <h1 class="uoc-title">Hello, UOC!</h1>
-            <p>
-              This is a starter template for the Advanced HTML and CSS Tools courses
-              from the Master's Program in Multimedia Applications and the Master's
-              Program in Web App and Website Development at the Universitat Oberta de
-              Catalunya.
-            </p>
-          </div>
+        <header>
+            <div class="layout two-columns-layout">
+                <div class="two-columns-layout__column personal-presentation">
+                    <img class="personal-presentation__photo" src="assets/images/me.png" alt="Sergi Rourera" />
+                    <div class="personal-presentation__me">
+                        <h1>Sergi Rourera</h1>
+                        <h2 data-i18n="me.profession">Enginyer Informàtic</h2>
+                    </div>
+                </div>
+                <ul class="two-columns-layout__column personal-info">
+                    <li class="personal-info__item">
+                        <i class="fa fa-envelope" aria-hidden="true"></i><span>sergirourerallaurado@gmail.com</span>
+                    </li>
+                    <li class="personal-info__item">
+                        <i class="fa fa-phone" aria-hidden="true"></i><span>687 85 83 30</span>
+                    </li>
+                    <li class="personal-info__item">
+                        <i class="fa fa-user" aria-hidden="true"></i><span data-i18n="me.age">24 anys</span>
+                    </li>
+                    <li class="personal-info__item">
+                        <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                        <span data-i18n="me.street">C/ Canone Baranera<br />Badalona, Barcelona, 08911</span>
+                    </li>
+                </ul>
+            </div>
+        </header>
 
-        <footer class="layout">
-            <ul class="layout__content layout__content--3 footer-languages">
-                <li class="footer-languages__item" data-i18n-switch="ca">
+        <main>
+            <div class="layout two-columns-layout">
+                <div class="two-columns-layout__column">
+                    <section class="cv-section">
+                        <div class="cv-section__title">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <h3 data-i18n="sections.presentation.title">Presentació</h3>
+                        </div>
+                        <div class="cv-section__content cv-section__content--text">
+                            <p data-i18n="sections.presentation.p1"></p>
+                            <p data-i18n="sections.presentation.p2"></p>
+                            <p data-i18n="sections.presentation.p3"></p>
+                            <p data-i18n="sections.presentation.p4"></p>
+                        </div>
+                    </section>
+
+                    <section class="cv-section">
+                        <div class="cv-section__title">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <h3 data-i18n="sections.education.title">Educació</h3>
+                        </div>
+                        <div class="cv-section__content cv-section__content--with-padding">
+                            <div class="education">
+                                <i class="fa fa-university education__icon" aria-hidden="true"></i>
+                                <h4 class="education__title" data-i18n="sections.education.1.title">
+                                    Grau en Enginyeria Informàtica
+                                </h4>
+                                <p class="education__university">Universitat Politècnica de Catalunya</p>
+                                <p class="education__faculty">Facultat Informàtica de Barcelona</p>
+                                <p class="education__date">09/2014 -- 06/2018</p>
+                            </div>
+
+                            <!-- Remove clases!!!!!!!!!!!! -->
+
+                            <div class="education education--group">
+                                <i class="fa fa-university education__icon" aria-hidden="true"></i>
+                                <h5
+                                    class="education__title education--group__title"
+                                    data-i18n="sections.education.group.1.title"
+                                >
+                                    Jedy Academy
+                                </h5>
+                                <ul class="education__list education--group__list">
+                                    <li>
+                                        <span
+                                            class="education__date education--group__date"
+                                            data-i18n="sections.education.group.1.1.date"
+                                        >
+                                            07/2017
+                                        </span>
+                                        <p data-i18n="sections.education.group.1.1.title">Curs HTML / CSS / JS</p>
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="education__date education--group__date"
+                                            data-i18n="sections.education.group.1.2.date"
+                                        >
+                                            07/2017
+                                        </span>
+                                        <p data-i18n="sections.education.group.1.2.title">Curs Seguretat Informàtica</p>
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="education__date education--group__date"
+                                            data-i18n="sections.education.group.1.3.date"
+                                        >
+                                            02/2019
+                                        </span>
+                                        <p data-i18n="sections.education.group.1.3.title">Curs Desenvolupament iOS</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="education education--group">
+                                <i class="fa fa-university education__icon" aria-hidden="true"></i>
+                                <h5
+                                    class="education__title education--group__title"
+                                    data-i18n="sections.education.group.2.title"
+                                >
+                                    Udemy Academy
+                                </h5>
+                                <ul class="education__list education--group__list">
+                                    <li>
+                                        <span
+                                            class="education__date education--group__date"
+                                            data-i18n="sections.education.group.2.1.date"
+                                        >
+                                            09/2018
+                                        </span>
+                                        <p data-i18n="sections.education.group.2.1.title">Curs PHP & SQL</p>
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="education__date education--group__date"
+                                            data-i18n="sections.education.group.2.2.date"
+                                        >
+                                            01/2019
+                                        </span>
+                                        <p data-i18n="sections.education.group.2.2.title">Curs React Native</p>
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="education__date education--group__date"
+                                            data-i18n="sections.education.group.2.3.date"
+                                        >
+                                            04/2019
+                                        </span>
+                                        <p data-i18n="sections.education.group.2.3.title">Curs Angular</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="education">
+                                <i class="fa fa-university education__icon" aria-hidden="true"></i>
+                                <h4 class="education__title" data-i18n="sections.education.2.title">Certificat Java</h4>
+                                <p class="education__university">ORACLE</p>
+                                <p class="education__faculty">Java Programmer I</p>
+                                <p class="education__date">09/2019</p>
+                            </div>
+
+                            <div class="education">
+                                <i class="fa fa-university education__icon" aria-hidden="true"></i>
+                                <h4 class="education__title" data-i18n="sections.education.3.title">
+                                    Màster en Gestió i Desenvolupament de llocs i aplicacions web
+                                </h4>
+                                <p class="education__university">Universitat Oberta Catalunya</p>
+                                <p class="education__date">02/2020 -- <span data-i18n="common.now">Actualitat</span></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="two-columns-layout__column">
+                    <section class="cv-section">
+                        <div class="cv-section__title">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <h3 data-i18n="sections.experience.title">Experiència</h3>
+                        </div>
+                        <div class="cv-section__content--with-padding">
+                            <div class="experience">
+                                <h4 class="experience__title" data-i18n="sections.experience.1.title">Informàtic</h4>
+                                <p class="experience__date">06/2016 -- 08/2016</p>
+                                <p class="experience__company">Inversa Serveis Informàtics</p>
+                                <div class="experience__tasks">
+                                    <p data-i18n="sections.experience.1.tasks.p1">- Prácticas</p>
+                                </div>
+                            </div>
+                            <div class="experience">
+                                <h4 class="experience__title" data-i18n="sections.experience.2.title">
+                                    Desenvolupador Software
+                                </h4>
+                                <p class="experience__date">07/2017 -- 12/2018</p>
+                                <p class="experience__company">Inversa Serveis Informàtics</p>
+                                <div class="experience__tasks">
+                                    <p data-i18n="sections.experience.2.tasks.p1">
+                                        - Encarregat del disseny i desenvolupament web, i responsable de projectes de
+                                        terceres companyies clients.
+                                    </p>
+                                    <p data-i18n="sections.experience.2.tasks.p2">
+                                        - Desenvolupament amb HTML, CSS, JS, PHP i SQL.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience">
+                                <h4 class="experience__title" data-i18n="sections.experience.3.title">
+                                    FullStack developer & QA
+                                </h4>
+                                <p class="experience__date">03/2019 -- 11/2020</p>
+                                <p class="experience__company">Deloitte Espanya</p>
+                                <div class="experience__tasks">
+                                    <p data-i18n="sections.experience.3.tasks.p1">
+                                        - FrontEnd lead d'un projecte internacional amb Angular8, i respectius Unit
+                                        Tests amb Karma i Jasmine.
+                                    </p>
+                                    <p data-i18n="sections.experience.3.tasks.p2">
+                                        - Metodología Scrum amb Jira, i utilitzant Git i Jenkins.
+                                    </p>
+                                    <p data-i18n="sections.experience.3.tasks.p3">
+                                        - Treballant amb microserveis implementats en Spring pel BackEnd del sistema,
+                                        allotjat a AWS.
+                                    </p>
+                                    <p data-i18n="sections.experience.3.tasks.p4">
+                                        - Reunions internacionals amb Webex, per comunicar-nos amb clients i
+                                        desenvolupadors d'altres paisos.
+                                    </p>
+                                    <p data-i18n="sections.experience.3.tasks.p5">
+                                        - Tasques de QA, amb JMeter per realitzar Performance tests.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience">
+                                <h4 class="experience__title" data-i18n="sections.experience.4.title">
+                                    FullStack developer
+                                </h4>
+                                <p class="experience__date">
+                                    11/2020 -- <span data-i18n="common.now">Actualitat</span>
+                                </p>
+                                <p class="experience__company">Housfy</p>
+                                <div class="experience__tasks">
+                                    <p data-i18n="sections.experience.4.tasks.p1">
+                                        - Team lead d'un dels 4 equips d'IT de Housfy.
+                                    </p>
+                                    <p data-i18n="sections.experience.4.tasks.p2">
+                                        - Senior FrontEnd lead, encarregat de tot el sistema de microfrontends de Housfy
+                                        amb Nuxt.
+                                    </p>
+                                    <p data-i18n="sections.experience.4.tasks.p3">
+                                        - Ajudant al desenvolupament Backend amb Laravel.
+                                    </p>
+                                    <p data-i18n="sections.experience.4.tasks.p4">- CD / CI amb Bitbucket pipelines.</p>
+                                    <p data-i18n="sections.experience.4.tasks.p5">
+                                        - Lead de SEO i de Performance optimization.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="cv-section">
+                        <div class="cv-section__title">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                            <h3 data-i18n="sections.skills.title">Habilitats</h3>
+                        </div>
+                        <div class="cv-section__content--with-padding">
+                            <div class="skill">
+                                <p class="skill__label">HTML5</p>
+                                <div class="skill__quantity"><div class="w-100"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">CSS</p>
+                                <div class="skill__quantity"><div class="w-100"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Javascript</p>
+                                <div class="skill__quantity"><div class="w-100"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Angular</p>
+                                <div class="skill__quantity"><div class="w-100"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Git</p>
+                                <div class="skill__quantity"><div class="w-100"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Nuxt + Vue</p>
+                                <div class="skill__quantity"><div class="w-100"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">PHP</p>
+                                <div class="skill__quantity"><div class="w-90"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Laravel</p>
+                                <div class="skill__quantity"><div class="w-90"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">SQL</p>
+                                <div class="skill__quantity"><div class="w-90"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Java</p>
+                                <div class="skill__quantity"><div class="w-80"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Spring</p>
+                                <div class="skill__quantity"><div class="w-80"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Scrum</p>
+                                <div class="skill__quantity"><div class="w-80"></div></div>
+                            </div>
+                            <div class="skill">
+                                <p class="skill__label">Python</p>
+                                <div class="skill__quantity"><div class="w-80"></div></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <ul class="layout three-columns-layout language-switcher">
+                <li class="three-columns-layout__column language-switcher__item" data-i18n-switch="ca">
                     <svg viewBox="0 0 1260 810">
                         <path fill="#d90700" d="M0 90h1260v90H0zM0 270h1260v90H0zM0 450h1260v90H0zM0 630h1260v90H0z" />
                         <path
@@ -32,14 +328,14 @@
                     </svg>
                     <span data-i18n="languages.catalan">CATALÀ - Natiu</span>
                 </li>
-                <li class="footer-languages__item" data-i18n-switch="es">
+                <li class="three-columns-layout__column language-switcher__item" data-i18n-switch="es">
                     <svg viewBox="0 0 1260 810">
                         <path fill="#d90700" d="M0 0h1260v220H0zM0 590h1260v220H0z" />
                         <path fill="#f5ff33" d="M0 220h1260v370H0z" />
                     </svg>
                     <span data-i18n="languages.spanish">CASTELLÀ - Natiu</span>
                 </li>
-                <li class="footer-languages__item" data-i18n-switch="en">
+                <li class="three-columns-layout__column language-switcher__item" data-i18n-switch="en">
                     <svg viewBox="0 0 514 344">
                         <rect width="100%" height="100%" fill="none" />
                         <path fill="#f0f0f0" d="M1.504 1.507h512v341.337h-512z" />
@@ -65,9 +361,7 @@
                     <span data-i18n="languages.english">ANGLÈS - Intermig (B+)</span>
                 </li>
             </ul>
-            <p class="footer-languages__switcher" data-i18n="common.lang-switcher">
-                Fes click per canviar el CV d'idioma
-            </p>
+            <p class="language-switcher__info" data-i18n="common.lang-switcher">Fes click per canviar el CV d'idioma</p>
         </footer>
         <script src="./assets/scripts/main.js"></script>
     </body>
