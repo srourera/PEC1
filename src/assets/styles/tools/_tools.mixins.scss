@@ -1,0 +1,24 @@
+/*------------------------------------*\
+  # TOOLS - Mixins
+\*------------------------------------*/
+
+@mixin sm {
+  @media (min-width: $sm-min-width) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: $md-min-width) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: $lg-min-width) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: $xl-min-width) {
+    @content;
+  }
+}

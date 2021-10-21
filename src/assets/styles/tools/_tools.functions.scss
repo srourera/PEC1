@@ -1,0 +1,13 @@
+@use 'sass:list';
+
+/*------------------------------------*\
+  # TOOLS - Functions
+\*------------------------------------*/
+
+@function fontSize($base) {
+  @return list.nth(12px 14px 16px 18px 20px 24px 48px, $base);
+}
+
+@function spacing($base) {
+  @return list.nth(0.25rem 0.5rem 0.75rem 1rem 2rem 3rem, $base);
+}

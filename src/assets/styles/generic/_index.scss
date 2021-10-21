@@ -1,0 +1,36 @@
+/*------------------------------------*\
+  # BASE CHANGES TO NATIVE TAGS
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $color-background;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: fontSize(1);
+}
+
+header {
+  background-color: $color-primary;
+}
+footer {
+  background-color: $color-dark;
+}
+main {
+  background-color: $color-background;
+}
