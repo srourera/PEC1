@@ -48,5 +48,9 @@
     "stylelint-config-recommended-scss": "^4.3.0",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "vanilla-i18n": "^1.0.8"
   }
 }

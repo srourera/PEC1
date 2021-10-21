@@ -1,0 +1,10 @@
+{
+  "common": {
+    "lang-switcher": "Click on the languages to change the language of the CV"
+  },
+  "me": {
+    "profession": "Informatics Engineering",
+    "age": "24 years",
+    "street": "St/ Canone Baranera<br>Badalona, Barcelona, 08911"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "common": {
+    "lang-switcher": "Haz click en los idiomas para cambiar el idioma del CV"
+  },
+  "me": {
+    "profession": "Ingeniero Informático",
+    "age": "24 años",
+    "street": "C/ Canone Baranera<br>Badalona, Barcelona, 08911"
+  }
+}
